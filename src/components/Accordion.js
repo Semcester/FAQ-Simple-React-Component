@@ -2,15 +2,10 @@ import React,{useState} from 'react';
 import {Data} from './Faq';
 import {IconContext} from 'react-icons'
 import {FiPlus, FiMinus} from 'react-icons/fi'
-import frequently from '../components/frequently.css'
 
 
-
- 
 const Accordion = () =>{
-
     const [clicked, setClicked] = useState(false)
-    
     const toggle = index => {
         if (clicked == index) {
             return setClicked(null)
@@ -18,7 +13,6 @@ const Accordion = () =>{
 
         setClicked(index)
     }
-
     return (
         <IconContext.Provider value={{color:'#00FB9', size :'25px'}}>
             <div className="AccourdionSection">

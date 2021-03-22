@@ -3,7 +3,6 @@ import faq from '../img/faq.png'
 import '../components/frequently.css';
 import Accordion from './Accordion';
 
-
 export const Data = [
     {
         question: 'Has the 15 January deadline changed?',
@@ -41,7 +40,6 @@ export default function Faq () {
             <div class="course-info">
                 <h2>FAQ</h2>
                 <Accordion/>
-                
             </div>
         </div>
     </div>
